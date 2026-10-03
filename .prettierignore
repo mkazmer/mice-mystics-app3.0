@@ -1,0 +1,4 @@
+package-lock.json
+server/src/generated
+server/prisma/migrations
+client/src/routeTree.gen.ts

@@ -1,0 +1,14 @@
+node_modules
+dist
+coverage
+.DS_Store
+*.log
+*.tsbuildinfo
+
+# env files (commit .env.example only)
+.env
+.env.*
+!.env.example
+
+# generated
+server/src/generated
