@@ -1,10 +1,10 @@
 import { Link } from '@tanstack/react-router'
+import { cn } from '@/lib/utils'
 
-export function Logo() {
+export function Logo({ className }: { className?: string }) {
   return (
-    <Link to="/" className="flex items-center gap-2 font-semibold tracking-tight">
-      <img src="/favicon.svg" alt="" className="size-7" />
-      <span>Mice &amp; Mystics</span>
+    <Link to="/" className="flex items-center">
+      <img src="/logo.png" alt="Mice & Mystics" className={cn('h-10 w-auto', className)} />
     </Link>
   )
 }

@@ -8,7 +8,7 @@ type Props = { title: string; description?: ReactNode; children: ReactNode; foot
 export function AuthShell({ title, description, children, footer }: Props) {
   return (
     <div className="flex min-h-svh flex-col items-center justify-center gap-6 bg-muted px-4 py-10">
-      <Logo />
+      <Logo className="h-auto w-full max-w-xs" />
       <Card className="w-full max-w-sm">
         <CardHeader>
           <CardTitle className="text-xl">{title}</CardTitle>
